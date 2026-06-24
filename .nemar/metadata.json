@@ -1,19 +1,32 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Changes in behavioral priority influence the accessibility of working memory content - Experiment 2\n",
+  "description": "This dataset contains preprocessed neuroimaging data from Experiment 2 investigating how changes in behavioral priority affect the accessibility of working memory content. The study examines the neural mechanisms underlying selective attention and working memory maintenance, with data collected and organized according to BIDS standards for reproducible neuroscience research.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Edward Ester": {},
     "Paige Pytel": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004520.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "working memory"
     },
+    {
+      "term": "behavioral priority"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "preprocessed data"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004520",
       "identifier_type": "URL",
@@ -28,39 +41,27 @@
       "identifier": "10.1101/2022.08.12.503778",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004520.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "11.2 GB (67 files)"
   ],
   "formats": [
     ".fdt",
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "Preprocessed EEG data from Experiment 2 investigating how behavioral priority modulates the accessibility of working memory representations. This dataset supports research on cognitive control mechanisms and the dynamic prioritization of information maintained in working memory. Analysis scripts are available at https://osf.io/gtd5f/.",
-  "keywords": [
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "behavioral priority"
-    },
-    {
-      "term": "cognitive control"
-    },
-    {
-      "term": "visual attention"
-    },
-    {
-      "term": "EEG"
-    }
-  ],
-  "source_hash": "ccad75c4b5c3b39c8aa66ba0227bce79c975dbc44091bde3447de395f5f76a72"
+  "source_hash": "a6c6cf3f040572b2c5b0f928f9345609369fd1a234a5ba53f92905cdfaf538dc"
 }
