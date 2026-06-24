@@ -1,28 +1,66 @@
 {
   "version": "2.0",
-  "dataset_id": "on004520",
-  "source": "openneuro",
-  "source_id": "ds004520",
+  "pipeline_stage": "enriched",
   "title": "Changes in behavioral priority influence the accessibility of working memory content - Experiment 2\n",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Edward Ester": {},
     "Paige Pytel": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004520.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004520",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004520",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2022.08.12.503778",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "Preprocessed EEG data from Experiment 2 investigating how behavioral priority modulates the accessibility of working memory representations. This dataset supports research on cognitive control mechanisms and the dynamic prioritization of information maintained in working memory. Analysis scripts are available at https://osf.io/gtd5f/.",
+  "keywords": [
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "behavioral priority"
+    },
+    {
+      "term": "cognitive control"
+    },
+    {
+      "term": "visual attention"
+    },
+    {
+      "term": "EEG"
+    }
+  ],
+  "source_hash": "ccad75c4b5c3b39c8aa66ba0227bce79c975dbc44091bde3447de395f5f76a72"
 }
